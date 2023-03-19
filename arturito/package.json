@@ -5,6 +5,10 @@
   "scripts": {
     "start": "craco --openssl-legacy-provider start",
     "build": "craco --openssl-legacy-provider build",
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5d2c0e218f36665ce6ea5c25b8e58ffd0265c1f7
     "test": "craco test",
     "prettier": "prettier --write .",
     "prettier:complain": "prettier --check .",

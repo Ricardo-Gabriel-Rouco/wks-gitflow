@@ -19,8 +19,13 @@ const SectionButton = ({ path }: { path: Path }) => {
 
 const SectionSelector = () => (
   <div className="p-2 space-x-4">
+<<<<<<< HEAD
     {Object.keys(paths).map((path, index) => (
       <SectionButton key={index} path={paths[path]} />
+=======
+    {Object.keys(paths).map((path, j) => (
+      <SectionButton path={paths[path]} key={j} />
+>>>>>>> 5d2c0e218f36665ce6ea5c25b8e58ffd0265c1f7
     ))}
   </div>
 );
